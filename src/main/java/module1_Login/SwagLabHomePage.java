@@ -1,7 +1,6 @@
 package module1_Login;
 
 
-import java.sql.Driver;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
