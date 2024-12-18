@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-18T17:49:56 IST" name="Suite" finished-at="2024-12-18T17:50:07 IST" duration-ms="11504">
+  <suite started-at="2024-12-18T21:15:05 IST" name="Suite" finished-at="2024-12-18T21:15:20 IST" duration-ms="15458">
     <groups>
     </groups>
-    <test started-at="2024-12-18T17:49:56 IST" name="Test" finished-at="2024-12-18T17:50:07 IST" duration-ms="11504">
+    <test started-at="2024-12-18T21:15:05 IST" name="Test" finished-at="2024-12-18T21:15:20 IST" duration-ms="15458">
       <class name="module1_Login.SwagLabLoginTest">
-        <test-method is-config="true" signature="OpenBrowwser(java.lang.String)[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3]" started-at="2024-12-18T17:49:56 IST" name="OpenBrowwser" finished-at="2024-12-18T17:49:59 IST" duration-ms="2934" status="PASS">
+        <test-method is-config="true" signature="OpenBrowwser(java.lang.String)[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb]" started-at="2024-12-18T21:15:05 IST" name="OpenBrowwser" finished-at="2024-12-18T21:15:09 IST" duration-ms="4620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,38 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowwser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3]" started-at="2024-12-18T17:49:59 IST" name="login" finished-at="2024-12-18T17:49:59 IST" duration-ms="519" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb]" started-at="2024-12-18T21:15:09 IST" name="login" finished-at="2024-12-18T21:15:10 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="homepage()[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3]" started-at="2024-12-18T17:49:59 IST" name="homepage" finished-at="2024-12-18T17:50:02 IST" duration-ms="2651" status="PASS">
+        <test-method signature="homepage()[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb]" started-at="2024-12-18T21:15:10 IST" name="homepage" finished-at="2024-12-18T21:15:13 IST" duration-ms="3211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3]" started-at="2024-12-18T17:50:02 IST" name="logout" finished-at="2024-12-18T17:50:07 IST" duration-ms="5036" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb]" started-at="2024-12-18T21:15:13 IST" name="logout" finished-at="2024-12-18T21:15:20 IST" duration-ms="6629" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homepage status=SUCCESS method=SwagLabLoginTest.homepage()[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3] output={null}]]]>
+                <![CDATA[[TestResult name=homepage status=SUCCESS method=SwagLabLoginTest.homepage()[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1_Login.SwagLabLoginTest@48075da3]" started-at="2024-12-18T17:50:07 IST" name="closeBrowser" finished-at="2024-12-18T17:50:07 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1_Login.SwagLabLoginTest@3349e9bb]" started-at="2024-12-18T21:15:20 IST" name="closeBrowser" finished-at="2024-12-18T21:15:20 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- module1_Login.SwagLabLoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite started-at="2024-12-18T17:50:07 IST" name="Suite (0)" finished-at="2024-12-18T17:50:18 IST" duration-ms="10657">
+  <suite started-at="2024-12-18T21:15:20 IST" name="Suite (0)" finished-at="2024-12-18T21:15:31 IST" duration-ms="11149">
     <groups>
     </groups>
-    <test started-at="2024-12-18T17:50:07 IST" name="Test" finished-at="2024-12-18T17:50:18 IST" duration-ms="10657">
+    <test started-at="2024-12-18T21:15:20 IST" name="Test" finished-at="2024-12-18T21:15:31 IST" duration-ms="11149">
       <class name="module2_cart.SauceLab_AddToCart_Test">
-        <test-method is-config="true" signature="openBrrowser(java.lang.String)[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@73eb439a]" started-at="2024-12-18T17:50:07 IST" name="openBrrowser" finished-at="2024-12-18T17:50:10 IST" duration-ms="2497" status="PASS">
+        <test-method is-config="true" signature="openBrrowser(java.lang.String)[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@51399530]" started-at="2024-12-18T21:15:20 IST" name="openBrrowser" finished-at="2024-12-18T21:15:23 IST" duration-ms="3135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,19 +60,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@73eb439a]" started-at="2024-12-18T17:50:10 IST" name="login" finished-at="2024-12-18T17:50:11 IST" duration-ms="696" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@51399530]" started-at="2024-12-18T21:15:23 IST" name="login" finished-at="2024-12-18T21:15:24 IST" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addToCart()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@73eb439a]" started-at="2024-12-18T17:50:11 IST" name="addToCart" finished-at="2024-12-18T17:50:15 IST" duration-ms="4456" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@51399530]" started-at="2024-12-18T21:15:24 IST" name="addToCart" finished-at="2024-12-18T21:15:28 IST" duration-ms="4473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@73eb439a]" started-at="2024-12-18T17:50:15 IST" name="logout" finished-at="2024-12-18T17:50:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@51399530]" started-at="2024-12-18T21:15:28 IST" name="logout" finished-at="2024-12-18T21:15:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@73eb439a]" started-at="2024-12-18T17:50:15 IST" name="browserClose" finished-at="2024-12-18T17:50:18 IST" duration-ms="3002" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:module2_cart.SauceLab_AddToCart_Test@51399530]" started-at="2024-12-18T21:15:28 IST" name="browserClose" finished-at="2024-12-18T21:15:31 IST" duration-ms="3014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
