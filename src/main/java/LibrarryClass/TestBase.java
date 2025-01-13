@@ -29,7 +29,7 @@ public class TestBase
 //				driver.manage().window().maximize();
 //				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		if(browser==null|| browser.equalsIgnoreCase("chrome")) {
+		 if(browser==null|| browser.equalsIgnoreCase("chrome")) {
 		
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

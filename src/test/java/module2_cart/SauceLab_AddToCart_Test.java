@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
 
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -26,7 +27,9 @@ public class SauceLab_AddToCart_Test extends TestBase {
 	SwagLabMenuPage menu;
 	SwagLabHomePage home;
 	SauceLab_YourCart_Page cart;
-
+    
+	int TCID;
+	
 	@BeforeClass
 	 @Parameters("browser")
 	public void openBrrowser(@Optional("chrome")String browser) throws IOException {
@@ -46,6 +49,7 @@ public class SauceLab_AddToCart_Test extends TestBase {
 
 	@Test
 	public void addToCart() throws InterruptedException {
+		TCID=01;
 		home.addToCart_Item("Sauce Labs Backpack");
 		Thread.sleep(2000);
 		home.addToCart_Item("Sauce Labs Bike Light");
@@ -68,7 +72,11 @@ public class SauceLab_AddToCart_Test extends TestBase {
 	}
 
 	@AfterMethod
-	public void logout() {
+	public void logout(ITestResult s) throws IOException {
+		if(s.getStatus()==ITestResult.FAILURE)
+		{
+			Utility.getSS(driver,TCID);
+		}
 		//home.click_sauceLab_HomePage_MenuButton();
 
 		//menu.click_sauceLab_MenuPageLogoutButton();

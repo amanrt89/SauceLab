@@ -18,7 +18,7 @@ public class Utility {
 
 	public static String getTD(int rowIndex,int cellIndex) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream file=new FileInputStream("C:\\Users\\Hp\\Workspace1\\SauceLab\\TestData\\ExtractData.xlsx");
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\TestData\\ExtractData.xlsx");
 		Sheet sh=WorkbookFactory.create(file).getSheet("DDF");
 		String data=sh.getRow(rowIndex).getCell(cellIndex).getStringCellValue();
 		return data;
@@ -30,11 +30,12 @@ public class Utility {
 		File src=ts.getScreenshotAs(OutputType.FILE);
 		File des=new File("C:\\Users\\Hp\\Workspace1\\SauceLab\\ScreenShot\\TestCasId_"+ testCaseID+".jpg");
 		FileHandler.copy(src, des);
+	
 	}
 
 	public static String getPFdata(String key) throws IOException
 	{  
-		FileInputStream file=new FileInputStream("C:\\Users\\Hp\\Workspace1\\SauceLab\\PropertyFile.properties");
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\PropertyFile.properties");
 		Properties p=new Properties();
 		p.load(file);
 		String value= p.getProperty(key);

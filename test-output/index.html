@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Hp\Workspace1\SauceLab\testng2.xml</span>
+                    <span>C:\Users\Hp\Workspace1\SauceLab\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="module2_cart.SauceLab_AddToCart_Test" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="module1_Login.SwagLabLoginTest" class="method navigator-link" hash-for-method="homepage(org.testng.TestRunner@128c502c)">homepage(org.testng.TestRunner@128c502c)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,41 +122,19 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">module2_cart.SauceLab_AddToCart_Test</span>
+              <span class="class-name">module1_Login.SwagLabLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addToCart">
-                  </a> <!-- addToCart -->
-                  <span class="method-name">addToCart</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=131.0.6778.140)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [107d30d60d429561825842febc44ac24, findElements {value=//div[@class=&apos;inventory_list&apos;]/div//div[contains(text(),&apos;Sauce Labs&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63888/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 107d30d60d429561825842febc44ac24
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.size(Unknown Source)
-	at module1_Login.SwagLabHomePage.addToCart_Item(SwagLabHomePage.java:36)
-	at module2_cart.SauceLab_AddToCart_Test.addToCart(SauceLab_AddToCart_Test.java:51)
+                  <a name="homepage(org.testng.TestRunner@128c502c)">
+                  </a> <!-- homepage(org.testng.TestRunner@128c502c) -->
+                  <span class="method-name">homepage</span>
+                  <span class="parameters">(org.testng.TestRunner@128c502c)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Logo Not match expected [secret_sauce] but found [Swag Labs]
+	at module1_Login.SwagLabLoginTest.homepage(SwagLabLoginTest.java:69)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -165,16 +143,19 @@ Session ID: 107d30d60d429561825842febc44ac24
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Hp\Workspace1\SauceLab\testng2.xml</span>
+            <span class="header-content">C:\Users\Hp\Workspace1\SauceLab\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Reports.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;module2_cart.SauceLab_AddToCart_Test&quot;/&gt;
+      &lt;class name=&quot;module1_Login.SwagLabLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -216,14 +197,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addToCart')
-data.setCell(0, 2, 'module2_cart.SauceLab_AddToCart_Test')
-data.setCell(0, 3, 2176);
+data.setCell(0, 1, 'homepage')
+data.setCell(0, 2, 'module1_Login.SwagLabLoginTest')
+data.setCell(0, 3, 1824);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -249,28 +230,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">module2_cart.SauceLab_AddToCart_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">module1_Login.SwagLabLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">openBrrowser(chrome)</span>
+                <span class="method-name">OpenBrowwser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">4190 ms</span>
+                <span class="method-start">5536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">addToCart</span>
-                <span class="method-start">4506 ms</span>
+                <span class="method-name">homepage(org.testng.TestRunner@128c502c)</span>
+                <span class="method-start">6488 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">logout</span>
-                <span class="method-start">6687 ms</span>
+                <span class="method-start">8714 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">browserClose</span>
-                <span class="method-start">6689 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">13807 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
